@@ -6,7 +6,7 @@
     --secondaryLight: #ffba43;
     --headerColor: #ffffff;
     --bodyTextColor: #ffffff;
-    --bodyTextColorWhite: #000000;
+    --bodyTextColorWhite: #0a0808;
     /* 13px - 16px */
     --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
     /* 31px - 49px */
@@ -21,10 +21,13 @@ body {
     padding: 0;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     /* prevents padding from affecting height and width */
     box-sizing: border-box;
 }
+
 .cs-topper {
     font-size: var(--topperFontSize);
     line-height: 1.2em;
